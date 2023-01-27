@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 public class YoilTellerMVC {
 
     @GetMapping("/getYoilMVC")
-    public String getYoilMVC(String year, String month, String day, Model m) {
+    public String getYoilMVC(int year, int month, int day, Model m) {
         m.addAttribute("year", year);
         m.addAttribute("month", month);
         m.addAttribute("day", day);
