@@ -6,6 +6,6 @@
 	<title>Home</title>
 </head>
 <body>
-<h1>${param.year}년 ${myDate.month}월 ${myDate.day}일 입니다.</h1>
+${year}년 ${month}월 ${day}일 입니다.
 </body>
 </html>
